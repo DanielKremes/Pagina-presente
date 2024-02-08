@@ -46,7 +46,7 @@ body {
     flex-direction: column;
     width: 100%;
     color: var(--cor-3);
-    min-height: 89vh;
+    min-height: 100vh;
     gap: 1rem;
 }
 
