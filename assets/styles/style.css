@@ -17,7 +17,7 @@
 
 html,
 body {
-    height: 100vh;
+    /* height: 100vh; */
     font-family: var(--font-page);
 }
 
@@ -46,7 +46,7 @@ body {
     flex-direction: column;
     width: 100%;
     color: var(--cor-3);
-    min-height: 100vh;
+    min-height: 89vh;
     gap: 1rem;
 }
 

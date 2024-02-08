@@ -1,6 +1,6 @@
 ## - [Veja o site do projeto clicando aqui, ou clique na imagem](https://danielkremes.github.io/Pagina-presente/)
 
-## [![](https://github.com/DanielKremes/Pagina-presente/assets/145404663/04bb922a-3186-49ae-8b62-26d9b592bc88)](https://danielkremes.github.io/Pagina-presente/)
+## [![](print%20pagina%20presente.png)](https://danielkremes.github.io/Pagina-presente/)
 ## Conhecimentos usados
 - HTML 5
 - CSS FLEXBOX
