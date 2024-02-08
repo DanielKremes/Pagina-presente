@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+:root {
+    --cor-1: #FA9191;
+    --cor-2: #fff;
+    --cor-3: #852646;
+    --font-page: "Protest Riot", sans-serif;
+    --font-size-main: 2rem;
+    --font-size-header-and-footer: 2rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    font-family: var(--font-page);
+}
+
+.header {
+    background-color: var(--cor-1);
+    display: flex;
+    justify-content: center;
+    height: 3.1rem;
+    align-items: center;
+    font-size: var(--font-size-header-and-footer);
+}
+
+.header_menu a {
+    color: var(--cor-2);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.mark_name_header {
+    color: #5f9ea0;
+    text-transform: capitalize;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--cor-3);
+    min-height: 89vh;
+    gap: 1rem;
+}
+
+.container,
+h1 {
+    font-size: 2rem;
+}
+
+.container_child_one {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.container_child_two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container_child_two_paragraph {
+    font-size: 1.5rem;
+    color: #5f9ea0;
+    margin: auto;
+}
+
+.container_child_tree {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container_child_tree h1 {
+    text-align: center;
+}
+
+.container_child_tree_photos {
+    text-align: center;
+}
+
+.footer {
+    background-color: var(--cor-1);
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    align-items: center;
+    font-size: var(--font-size-header-and-footer);
+}
+
+.footer p {
+    color: var(--cor-2);
+}
+
+.footer .mark_name_footer {
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_child_one {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+}
